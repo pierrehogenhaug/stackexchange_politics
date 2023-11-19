@@ -1,3 +1,4 @@
 input/
 output/
+wandb/
 stackexchange_data_gpt.ipynb
