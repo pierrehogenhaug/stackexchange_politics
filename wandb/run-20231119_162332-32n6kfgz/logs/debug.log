@@ -26,3 +26,13 @@ config: {}
 2023-11-19 16:23:32,914 INFO    MainThread:37361 [wandb_run.py:_redirect():2153] Wrapping output streams.
 2023-11-19 16:23:32,914 INFO    MainThread:37361 [wandb_run.py:_redirect():2178] Redirects installed.
 2023-11-19 16:23:32,914 INFO    MainThread:37361 [wandb_init.py:init():841] run started, returning control to user process
+2023-11-19 16:27:32,126 INFO    MainThread:37361 [wandb_run.py:_finish():1962] finishing run deeplearning-02456/stackexchange_politics/32n6kfgz
+2023-11-19 16:27:32,127 INFO    MainThread:37361 [jupyter.py:save_history():445] not saving jupyter history
+2023-11-19 16:27:32,127 INFO    MainThread:37361 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-19 16:27:32,127 INFO    MainThread:37361 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-11-19 16:27:32,127 INFO    MainThread:37361 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-11-19 16:27:32,127 INFO    MainThread:37361 [wandb_run.py:_restore():2185] restore
+2023-11-19 16:27:32,127 INFO    MainThread:37361 [wandb_run.py:_restore():2191] restore done
+2023-11-19 16:27:40,367 INFO    MainThread:37361 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-19 16:27:40,368 INFO    MainThread:37361 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-19 16:27:40,375 INFO    MainThread:37361 [wandb_run.py:_footer_sync_info():3719] logging synced files
