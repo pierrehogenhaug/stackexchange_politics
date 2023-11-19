@@ -1,0 +1,163 @@
+2023-11-19 16:12:31,851 INFO    StreamThr :37177 [internal.py:wandb_internal():86] W&B internal server running at pid: 37177, started at: 2023-11-19 16:12:31.850951
+2023-11-19 16:12:31,852 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status
+2023-11-19 16:12:31,867 INFO    WriterThread:37177 [datastore.py:open_for_write():85] open: /Users/phog/Desktop/cleverThings/socialGraphs23/politics/stackexchange_politics/wandb/run-20231119_161231-o64vm51p/run-o64vm51p.wandb
+2023-11-19 16:12:31,869 DEBUG   SenderThread:37177 [sender.py:send():380] send: header
+2023-11-19 16:12:31,892 DEBUG   SenderThread:37177 [sender.py:send():380] send: run
+2023-11-19 16:12:32,281 ERROR   SenderThread:37177 [internal_api.py:execute():370] 404 response executing GraphQL.
+2023-11-19 16:12:32,281 ERROR   SenderThread:37177 [internal_api.py:execute():371] {"errors":[{"message":"entity your_username not found during upsertBucket","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-11-19 16:12:32,281 ERROR   SenderThread:37177 [sender.py:send_run():979] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 977, in send_run
+    self._init_run(run, config_value_dict)
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 1015, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+                                            ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2008, in upsert_run
+    response = self.gql(
+               ^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+                                ^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/util.py", line 965, in check_retry_fn
+    return fallback_retry_fn(e)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2023-11-19 16:12:37,304 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:12:42,330 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:12:47,351 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:12:51,193 INFO    StreamThr :37177 [internal.py:wandb_internal():86] W&B internal server running at pid: 37177, started at: 2023-11-19 16:12:51.192777
+2023-11-19 16:12:51,193 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status
+2023-11-19 16:12:51,206 INFO    WriterThread:37177 [datastore.py:open_for_write():85] open: /Users/phog/Desktop/cleverThings/socialGraphs23/politics/stackexchange_politics/wandb/run-20231119_161251-mc297sti/run-mc297sti.wandb
+2023-11-19 16:12:51,206 DEBUG   SenderThread:37177 [sender.py:send():380] send: header
+2023-11-19 16:12:51,217 DEBUG   SenderThread:37177 [sender.py:send():380] send: run
+2023-11-19 16:12:51,564 ERROR   SenderThread:37177 [internal_api.py:execute():370] 404 response executing GraphQL.
+2023-11-19 16:12:51,564 ERROR   SenderThread:37177 [internal_api.py:execute():371] {"errors":[{"message":"entity your_username not found during upsertBucket","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-11-19 16:12:51,564 ERROR   SenderThread:37177 [sender.py:send_run():979] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 977, in send_run
+    self._init_run(run, config_value_dict)
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 1015, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+                                            ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2008, in upsert_run
+    response = self.gql(
+               ^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+                                ^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/util.py", line 965, in check_retry_fn
+    return fallback_retry_fn(e)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phog/.pyenv/versions/3.11.0/lib/python3.11/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2023-11-19 16:12:52,370 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:12:56,253 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:12:56,580 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:12:57,385 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:01,285 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:01,596 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:02,408 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:06,317 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:06,625 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:07,426 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:11,353 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:11,640 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:12,443 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:16,378 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:16,656 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:17,465 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:21,406 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:21,674 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:22,481 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:26,451 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:26,688 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:27,495 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:31,480 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:31,711 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:32,516 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:36,506 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-19 16:13:36,733 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:37,535 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:41,746 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:42,556 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:46,765 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:47,573 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:51,784 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:52,591 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:56,802 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:13:57,608 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:01,815 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:02,621 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:06,831 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:07,639 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:11,844 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:12,657 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:16,854 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:17,676 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:21,875 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:22,695 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:26,893 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:27,710 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:31,908 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 16:14:32,730 DEBUG   HandlerThread:37177 [handler.py:handle_request():146] handle_request: status_report
