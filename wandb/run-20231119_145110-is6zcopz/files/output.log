@@ -1,0 +1,27 @@
+C:\Users\pih\AppData\Local\Temp\ipykernel_34332\2900417184.py:10: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['CombinedText'] = df['Title'] + ' ' + df['Body'] + ' ' + df['Tags'] * 2
+c:\Users\pih\AppData\Local\Programs\Python\Python310\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\pih\AppData\Local\Temp\ipykernel_34332\2900417184.py:5: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Title'] = df['Title'].apply(preprocess_text)
+C:\Users\pih\AppData\Local\Temp\ipykernel_34332\2900417184.py:6: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Body'] = df['Body'].apply(preprocess_text)
+C:\Users\pih\AppData\Local\Temp\ipykernel_34332\2900417184.py:7: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Tags'] = df['Tags'].apply(preprocess_text)
+C:\Users\pih\AppData\Local\Temp\ipykernel_34332\2900417184.py:10: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['CombinedText'] = df['Title'] + ' ' + df['Body'] + ' ' + df['Tags'] * 2

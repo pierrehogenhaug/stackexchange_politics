@@ -1,0 +1,305 @@
+2023-11-19 14:46:04,726 INFO    StreamThr :37044 [internal.py:wandb_internal():86] W&B internal server running at pid: 37044, started at: 2023-11-19 14:46:04.726292
+2023-11-19 14:46:04,726 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status
+2023-11-19 14:46:04,758 INFO    WriterThread:37044 [datastore.py:open_for_write():85] open: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\run-dm5ejgax.wandb
+2023-11-19 14:46:04,759 DEBUG   SenderThread:37044 [sender.py:send():380] send: header
+2023-11-19 14:46:04,852 DEBUG   SenderThread:37044 [sender.py:send():380] send: run
+2023-11-19 14:46:05,408 INFO    SenderThread:37044 [dir_watcher.py:__init__():211] watching files in: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files
+2023-11-19 14:46:05,408 INFO    SenderThread:37044 [sender.py:_start_run_threads():1124] run started: dm5ejgax with start time 1700401564.726292
+2023-11-19 14:46:05,408 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: check_version
+2023-11-19 14:46:05,408 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: check_version
+2023-11-19 14:46:05,585 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: run_start
+2023-11-19 14:46:05,599 DEBUG   HandlerThread:37044 [system_info.py:__init__():32] System info init
+2023-11-19 14:46:05,599 DEBUG   HandlerThread:37044 [system_info.py:__init__():47] System info init done
+2023-11-19 14:46:05,599 INFO    HandlerThread:37044 [system_monitor.py:start():194] Starting system monitor
+2023-11-19 14:46:05,600 INFO    SystemMonitor:37044 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-19 14:46:05,600 INFO    HandlerThread:37044 [system_monitor.py:probe():214] Collecting system info
+2023-11-19 14:46:05,610 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started cpu monitoring
+2023-11-19 14:46:05,611 DEBUG   HandlerThread:37044 [system_info.py:probe():196] Probing system
+2023-11-19 14:46:05,611 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started disk monitoring
+2023-11-19 14:46:05,613 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started memory monitoring
+2023-11-19 14:46:05,627 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started network monitoring
+2023-11-19 14:46:05,629 DEBUG   HandlerThread:37044 [system_info.py:_probe_git():181] Probing git
+2023-11-19 14:46:05,857 DEBUG   HandlerThread:37044 [system_info.py:_probe_git():189] Probing git done
+2023-11-19 14:46:05,858 DEBUG   HandlerThread:37044 [system_info.py:probe():244] Probing system done
+2023-11-19 14:46:05,858 DEBUG   HandlerThread:37044 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.10.4', 'heartbeatAt': '2023-11-19T13:46:05.611931', 'startedAt': '2023-11-19T13:46:04.709477', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/pierrehogenhaug/stackexchange_politics.git', 'commit': 'e3c1741588f6d4244818ce45449b3148bf66253b'}, 'email': 'pierrehogenhaug@gmail.com', 'root': 'C:/Users/pih/OneDrive - Capital Four Management Fondsmæglerselskab A S/notesPH/personal/school/dtu/socialGraphs23/stackexchange_politics', 'host': 'C4W21-01', 'username': 'pih', 'executable': 'c:\\Users\\pih\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2904.0, 'min': 0.0, 'max': 2904.0}, 'cpu_freq_per_core': [{'current': 2904.0, 'min': 0.0, 'max': 2904.0}], 'disk': {'/': {'total': 475.96581649780273, 'used': 411.39732360839844}}, 'memory': {'total': 15.781463623046875}}
+2023-11-19 14:46:05,858 INFO    HandlerThread:37044 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-19 14:46:05,858 INFO    HandlerThread:37044 [system_monitor.py:probe():227] Publishing system info
+2023-11-19 14:46:05,858 DEBUG   HandlerThread:37044 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-19 14:46:05,860 DEBUG   HandlerThread:37044 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-19 14:46:05,860 INFO    HandlerThread:37044 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-19 14:46:05,875 DEBUG   SenderThread:37044 [sender.py:send():380] send: files
+2023-11-19 14:46:05,875 INFO    SenderThread:37044 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-19 14:46:05,909 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:46:05,910 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:46:05,912 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:46:05,918 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: pause
+2023-11-19 14:46:05,918 INFO    HandlerThread:37044 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-19 14:46:05,918 INFO    HandlerThread:37044 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-19 14:46:05,918 DEBUG   SystemMonitor:37044 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-19 14:46:05,919 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-19 14:46:05,919 DEBUG   SystemMonitor:37044 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-19 14:46:05,919 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined disk monitor
+2023-11-19 14:46:05,919 DEBUG   SystemMonitor:37044 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-19 14:46:05,919 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined memory monitor
+2023-11-19 14:46:05,920 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined network monitor
+2023-11-19 14:46:06,192 DEBUG   SenderThread:37044 [sender.py:send():380] send: telemetry
+2023-11-19 14:46:06,192 DEBUG   SenderThread:37044 [sender.py:send():380] send: stats
+2023-11-19 14:46:06,424 INFO    Thread-16 :37044 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\wandb-metadata.json
+2023-11-19 14:46:06,424 INFO    Thread-16 :37044 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\requirements.txt
+2023-11-19 14:46:07,082 INFO    wandb-upload_0:37044 [upload_job.py:push():131] Uploaded file C:\Users\pih\AppData\Local\Temp\tmp0ek1bkvkwandb\j7n6u6ra-wandb-metadata.json
+2023-11-19 14:46:10,242 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:15,301 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:20,351 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:20,899 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:46:20,903 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:46:20,903 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:46:26,218 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:31,258 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:35,923 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:46:35,923 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:46:35,925 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:46:37,150 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:37,699 INFO    Thread-16 :37044 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\config.yaml
+2023-11-19 14:46:42,417 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:47,444 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:50,926 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:46:50,926 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:46:50,926 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:46:53,202 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:46:58,231 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:03,246 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:05,935 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:47:05,935 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:47:05,935 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:47:09,185 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:14,215 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:19,237 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:20,931 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:47:20,931 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:47:20,947 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:47:25,237 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:30,274 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:35,300 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:35,942 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:47:35,942 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:47:35,957 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:47:41,151 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:46,189 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:50,969 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:47:50,969 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:47:50,969 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:47:51,228 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:47:56,248 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:01,284 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:05,972 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:48:05,972 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:48:05,988 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:48:07,170 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:12,190 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:17,224 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:20,990 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:48:20,990 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:48:21,007 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:48:23,187 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:28,210 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:33,223 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:36,015 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:48:36,015 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:48:36,015 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:48:39,198 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:44,229 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:49,293 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:48:51,017 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:48:51,017 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:48:51,033 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:48:55,291 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:00,332 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:05,367 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:06,018 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:49:06,018 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:49:06,034 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:49:11,266 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:16,296 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:21,027 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:49:21,027 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:49:21,028 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:49:22,205 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:27,236 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:32,272 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:36,036 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:49:36,036 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:49:36,036 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:49:38,253 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:43,276 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:48,329 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:51,042 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:49:51,058 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:49:51,059 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:49:54,292 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:49:59,316 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:04,339 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:06,052 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:50:06,067 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:50:06,067 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:50:10,270 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:15,284 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:20,308 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:21,062 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:50:21,078 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:50:21,078 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:50:26,307 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:31,328 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:36,077 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:50:36,092 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:50:36,092 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:50:37,321 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:42,348 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:47,374 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:51,081 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:50:51,098 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:50:51,099 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:50:53,371 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:50:58,408 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:51:03,441 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:51:06,093 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:51:06,094 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-19 14:51:06,095 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: stop_status
+2023-11-19 14:51:09,338 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:51:10,723 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: resume
+2023-11-19 14:51:10,724 INFO    HandlerThread:37044 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-19 14:51:10,724 INFO    HandlerThread:37044 [system_monitor.py:start():194] Starting system monitor
+2023-11-19 14:51:10,725 INFO    SystemMonitor:37044 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-19 14:51:10,733 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started cpu monitoring
+2023-11-19 14:51:10,733 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started disk monitoring
+2023-11-19 14:51:10,733 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started memory monitoring
+2023-11-19 14:51:10,747 INFO    SystemMonitor:37044 [interfaces.py:start():190] Started network monitoring
+2023-11-19 14:51:10,748 DEBUG   SenderThread:37044 [sender.py:send():380] send: telemetry
+2023-11-19 14:51:10,759 DEBUG   SenderThread:37044 [sender.py:send():380] send: telemetry
+2023-11-19 14:51:10,761 DEBUG   SenderThread:37044 [sender.py:send():380] send: exit
+2023-11-19 14:51:10,761 INFO    SenderThread:37044 [sender.py:send_exit():585] handling exit code: 0
+2023-11-19 14:51:10,761 INFO    SenderThread:37044 [sender.py:send_exit():587] handling runtime: 0
+2023-11-19 14:51:10,763 INFO    SenderThread:37044 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-19 14:51:10,764 INFO    SenderThread:37044 [sender.py:send_exit():593] send defer
+2023-11-19 14:51:10,764 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,764 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-19 14:51:10,765 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,765 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-19 14:51:10,765 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 1
+2023-11-19 14:51:10,765 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,765 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-19 14:51:10,765 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,766 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-19 14:51:10,766 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 2
+2023-11-19 14:51:10,766 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,766 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-19 14:51:10,766 INFO    HandlerThread:37044 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-19 14:51:10,766 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-19 14:51:10,766 DEBUG   SystemMonitor:37044 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-19 14:51:10,767 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined disk monitor
+2023-11-19 14:51:10,767 DEBUG   SystemMonitor:37044 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-19 14:51:10,767 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined memory monitor
+2023-11-19 14:51:10,767 DEBUG   SystemMonitor:37044 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-19 14:51:10,767 INFO    HandlerThread:37044 [interfaces.py:finish():202] Joined network monitor
+2023-11-19 14:51:10,768 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,768 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-19 14:51:10,768 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 3
+2023-11-19 14:51:10,769 DEBUG   SenderThread:37044 [sender.py:send():380] send: stats
+2023-11-19 14:51:10,769 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,769 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-19 14:51:10,769 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,769 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-19 14:51:10,769 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 4
+2023-11-19 14:51:10,770 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,770 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-19 14:51:10,770 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,770 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-19 14:51:10,770 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 5
+2023-11-19 14:51:10,770 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,770 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-19 14:51:10,771 DEBUG   SenderThread:37044 [sender.py:send():380] send: summary
+2023-11-19 14:51:10,772 INFO    SenderThread:37044 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-19 14:51:10,773 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,773 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-19 14:51:10,773 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 6
+2023-11-19 14:51:10,773 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,773 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-19 14:51:10,774 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,774 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-19 14:51:10,778 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: status_report
+2023-11-19 14:51:10,973 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 7
+2023-11-19 14:51:10,973 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,974 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-19 14:51:10,974 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,974 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-19 14:51:10,975 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 8
+2023-11-19 14:51:10,975 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,975 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-19 14:51:10,976 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,976 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-19 14:51:10,976 INFO    SenderThread:37044 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-19 14:51:10,978 INFO    SenderThread:37044 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-11-19 14:51:10,979 INFO    SenderThread:37044 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2023-11-19 14:51:10,979 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 9
+2023-11-19 14:51:10,979 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:10,979 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-19 14:51:10,979 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:10,979 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-19 14:51:10,981 INFO    SenderThread:37044 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-19 14:51:11,036 INFO    Thread-16 :37044 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\config.yaml
+2023-11-19 14:51:11,043 INFO    SenderThread:37044 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\wandb-summary.json
+2023-11-19 14:51:11,043 INFO    SenderThread:37044 [dir_watcher.py:finish():388] scan: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files
+2023-11-19 14:51:11,043 INFO    SenderThread:37044 [dir_watcher.py:finish():402] scan save: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\config.yaml config.yaml
+2023-11-19 14:51:11,043 INFO    SenderThread:37044 [dir_watcher.py:finish():402] scan save: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\requirements.txt requirements.txt
+2023-11-19 14:51:11,043 INFO    SenderThread:37044 [dir_watcher.py:finish():402] scan save: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\wandb-metadata.json wandb-metadata.json
+2023-11-19 14:51:11,043 INFO    SenderThread:37044 [dir_watcher.py:finish():402] scan save: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\wandb-summary.json wandb-summary.json
+2023-11-19 14:51:11,060 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 10
+2023-11-19 14:51:11,060 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:11,060 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-19 14:51:11,061 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:11,061 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-19 14:51:11,061 INFO    SenderThread:37044 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-19 14:51:11,573 INFO    wandb-upload_0:37044 [upload_job.py:push():131] Uploaded file c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\config.yaml
+2023-11-19 14:51:11,580 INFO    wandb-upload_1:37044 [upload_job.py:push():131] Uploaded file c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\requirements.txt
+2023-11-19 14:51:11,610 INFO    wandb-upload_2:37044 [upload_job.py:push():131] Uploaded file c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\files\wandb-summary.json
+2023-11-19 14:51:11,773 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-19 14:51:11,774 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: poll_exit
+2023-11-19 14:51:11,836 INFO    Thread-15 (_thread_body):37044 [sender.py:transition_state():613] send defer: 11
+2023-11-19 14:51:11,836 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:11,836 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-19 14:51:11,837 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:11,837 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-19 14:51:11,837 INFO    SenderThread:37044 [file_pusher.py:join():181] waiting for file pusher
+2023-11-19 14:51:11,837 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 12
+2023-11-19 14:51:11,838 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:11,838 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-19 14:51:11,838 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:11,838 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-19 14:51:11,838 INFO    SenderThread:37044 [file_stream.py:finish():595] file stream finish called
+2023-11-19 14:51:12,381 INFO    SenderThread:37044 [file_stream.py:finish():599] file stream finish is done
+2023-11-19 14:51:12,381 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 13
+2023-11-19 14:51:12,381 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:12,381 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-19 14:51:12,381 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:12,381 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-19 14:51:12,381 INFO    SenderThread:37044 [sender.py:transition_state():613] send defer: 14
+2023-11-19 14:51:12,381 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: defer
+2023-11-19 14:51:12,381 INFO    HandlerThread:37044 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-19 14:51:12,381 DEBUG   SenderThread:37044 [sender.py:send():380] send: final
+2023-11-19 14:51:12,381 DEBUG   SenderThread:37044 [sender.py:send():380] send: footer
+2023-11-19 14:51:12,381 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: defer
+2023-11-19 14:51:12,381 INFO    SenderThread:37044 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-19 14:51:12,381 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-19 14:51:12,381 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: poll_exit
+2023-11-19 14:51:12,390 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-19 14:51:12,390 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: server_info
+2023-11-19 14:51:12,390 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-19 14:51:12,390 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-19 14:51:12,390 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: server_info
+2023-11-19 14:51:12,390 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: job_info
+2023-11-19 14:51:12,540 DEBUG   SenderThread:37044 [sender.py:send_request():407] send_request: job_info
+2023-11-19 14:51:12,540 DEBUG   HandlerThread:37044 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-19 14:51:12,540 INFO    HandlerThread:37044 [handler.py:finish():866] shutting down handler
+2023-11-19 14:51:13,405 INFO    WriterThread:37044 [datastore.py:close():294] close: c:\Users\pih\OneDrive - Capital Four Management Fondsmæglerselskab A S\notesPH\personal\school\dtu\socialGraphs23\stackexchange_politics\wandb\run-20231119_144604-dm5ejgax\run-dm5ejgax.wandb
+2023-11-19 14:51:13,555 INFO    SenderThread:37044 [sender.py:finish():1536] shutting down sender
+2023-11-19 14:51:13,555 INFO    SenderThread:37044 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-19 14:51:13,555 INFO    SenderThread:37044 [file_pusher.py:join():181] waiting for file pusher
