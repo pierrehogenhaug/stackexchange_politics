@@ -8,3 +8,7 @@ topic_extraction_pickle.ipynb
 
 wandb_output/wandb_export_2023-11-21T09_39_00.798+01_00.csv
 wandb_export_coherence_perplexity.csv
+all_results.pkl
+topic_extraction.ipynb
+wandb_output/questions_cleaned.pkl
+wandb_output/questions_cleaned_text.pkl
