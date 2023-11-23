@@ -2,5 +2,9 @@ input/
 output/
 wandb/
 stackexchange_data_gpt.ipynb
+.DS_Store
+topic_modeling_results.pkl
+topic_extraction_pickle.ipynb
+
 wandb_output/wandb_export_2023-11-21T09_39_00.798+01_00.csv
 wandb_export_coherence_perplexity.csv
