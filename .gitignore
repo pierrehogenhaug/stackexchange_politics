@@ -12,3 +12,7 @@ all_results.pkl
 topic_extraction.ipynb
 wandb_output/questions_cleaned.pkl
 wandb_output/questions_cleaned_text.pkl
+questions_cleaned.pkl
+questions_cleaned_text.pkl
+topic_extraction_WandB.ipynb
+topic_extraction_WandB_2.ipynb
