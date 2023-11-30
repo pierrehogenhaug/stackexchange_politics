@@ -16,3 +16,7 @@ questions_cleaned_text.pkl
 topic_extraction_WandB.ipynb
 topic_extraction_WandB_2.ipynb
 all_results_2.pkl
+df_posts_result.pkl
+df_comments_result.pkl
+df_comments_processed.pkl
+df_posts_processed.pkl
