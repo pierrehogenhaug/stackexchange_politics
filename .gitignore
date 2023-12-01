@@ -1,5 +1,6 @@
 input/
 output/
+pickle_dataframes/
 wandb/
 stackexchange_data_gpt.ipynb
 .DS_Store
