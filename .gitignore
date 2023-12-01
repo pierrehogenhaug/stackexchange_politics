@@ -20,3 +20,5 @@ df_posts_result.pkl
 df_comments_result.pkl
 df_comments_processed.pkl
 df_posts_processed.pkl
+graph.graphml
+thread_participation.gephi
