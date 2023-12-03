@@ -22,3 +22,4 @@ df_comments_processed.pkl
 df_posts_processed.pkl
 graph.graphml
 thread_participation.gephi
+.DS_Store
