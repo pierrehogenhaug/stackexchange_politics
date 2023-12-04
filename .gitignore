@@ -23,3 +23,5 @@ df_posts_processed.pkl
 graph.graphml
 thread_participation.gephi
 .DS_Store
+users_with_attributes.csv
+.DS_Store
